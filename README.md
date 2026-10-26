@@ -17,7 +17,7 @@
   Run decentralized teams of up to 1,024 autonomous software agents collaborating on your local machine.
 </p>
 
-[Quick Start](#-quick-start) • [Architecture](#-architecture) • [Benchmarks](#-benchmarks) • [Web Dashboard](#-real-time-web-dashboard) • [MCP Server](#-model-context-protocol-mcp) • [Roadmap](#-community--contributing)
+[Quick Start](#-quick-start) • [Architecture](#-architecture) • [Benchmarks](#-benchmarks) • [Web Dashboard](#-real-time-web-dashboard) • [MCP Server](#-model-context-protocol-mcp) • [References & Citation](#-references--citation) • [Acknowledgements](#-acknowledgements) • [Roadmap](#-roadmap--highlights)
 
 </div>
 
@@ -25,7 +25,7 @@
 
 ## ⚡ The Breakthrough: Scaling Organizational Intelligence
 
-The seminal **Agensh** research proved that organizational intelligence emerges without a central manager when peer agents cooperate asynchronously through a shared workspace, a shared context board, and collision-resolving messaging. As teams scale from **1 agent to 1,024 agents**, test-pass rates surge by up to **49% to 79%**.
+The seminal **[Agensh](https://github.com/microsoft/Agensh)** research by Microsoft Research proved that organizational intelligence emerges without a central manager when peer agents cooperate asynchronously through a shared workspace, a shared context board, and collision-resolving messaging. As teams scale from **1 agent to 1,024 agents**, test-pass rates surge by up to **49% to 79%**.
 
 However, the original experiment required:
 - Closed, proprietary models (`GPT-5.6-sol` via Copilot ACP)
@@ -242,6 +242,57 @@ OpenAgenshGemma is fully open-source and vendor-neutral. Contributions, issue re
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+---
+
+## 📚 References & Citation
+
+This project builds upon and integrates research, benchmarks, and open technologies from:
+
+### 1. Microsoft Agensh
+- **Repository**: [https://github.com/microsoft/Agensh](https://github.com/microsoft/Agensh)
+- **Paper**: [Agensh: Scaling Organizational Intelligence to 1,024 Agents](https://arxiv.org/abs/2609.26781) (Zhan et al., Microsoft Research)
+```bibtex
+@article{zhan2026agensh,
+  title   = {Agensh: Scaling Organizational Intelligence to 1,024 Agents},
+  author  = {Zhan, Zhihao and Song, Ting and Dong, Li and Huang, Shaohan and Lian, Jianxun and Xia, Yan and Wei, Furu},
+  journal = {arXiv preprint arXiv:2609.26781},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2609.26781}
+}
+```
+
+### 2. Google AI Gemma
+- **Project**: [https://ai.google.dev/gemma](https://ai.google.dev/gemma)
+- **Paper**: [Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/abs/2403.08295) (Gemma Team, Google DeepMind)
+```bibtex
+@article{gemma2024,
+  title   = {Gemma: Open Models Based on Gemini Research and Technology},
+  author  = {Gemma Team, Google DeepMind},
+  journal = {arXiv preprint arXiv:2403.08295},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2403.08295}
+}
+```
+
+### 3. E2B Sandbox
+- **Project**: [https://e2b.dev](https://e2b.dev)
+- **Repository**: [https://github.com/e2b-dev/E2B](https://github.com/e2b-dev/E2B)
+- E2B provides open-source, secure virtual execution environments for AI code execution and agent tool use.
+
+### 4. DeLM
+- **Repository**: [https://github.com/yuzhenmao/DeLM](https://github.com/yuzhenmao/DeLM)
+- Inspired the append-only shared lessons and context architecture.
+
+---
+
+## 🙏 Acknowledgements
+
+We gratefully acknowledge:
+- **Microsoft Research** and the authors of [Agensh](https://github.com/microsoft/Agensh) (*Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian, Yan Xia, Furu Wei*) for pioneering the decentralized multi-agent harness architecture, shared context mechanics, and establishing the foundational benchmarks on ProgramBench.
+- **Google DeepMind & Google AI** for creating and releasing the **Gemma** open models family, providing state-of-the-art open reasoning, vision, and tool-calling capabilities that empower truly democratized, vendor-neutral multi-agent swarms.
+- **The E2B Team** for their open-source sandbox runtime, enabling safe and isolated code execution for autonomous software engineering agents.
+- **The Open-Source Community** for continuous contributions to Ollama, vLLM, SQLite, and the Model Context Protocol (MCP).
 
 ---
 
