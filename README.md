@@ -4,7 +4,7 @@
 ### Decentralized, Scalable Multi-Agent Harness (4 to 1,024 Agents)
 **Powered by Google Gemma 4, E2B Sandboxes, SQLite, and Node.js**
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
 [![Model](https://img.shields.io/badge/Model-Google_Gemma_4-purple.svg)](https://ai.google.dev/gemma)
 [![Sandbox](https://img.shields.io/badge/Sandbox-E2B_Code_Interpreter-orange.svg)](https://e2b.dev)
@@ -298,4 +298,4 @@ We gratefully acknowledge:
 
 ## 📜 License
 
-Distributed under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
