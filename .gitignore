@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases & temp files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Agensh Local Sandboxes & ephemeral runs
+.agensh_sandboxes/
+sandboxes_*/
+*.tmp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environments & secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

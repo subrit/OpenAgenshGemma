@@ -1,0 +1,12 @@
+{
+  "name": "agensh-node-tools",
+  "version": "2.0.0",
+  "description": "Agensh Node.js MCP server, tooling, and dashboard utilities",
+  "main": "mcp_server.cjs",
+  "scripts": {
+    "start": "node mcp_server.cjs"
+  },
+  "keywords": ["agensh", "mcp", "multiagent", "e2b", "gemma4"],
+  "author": "Agensh Open Source",
+  "license": "MIT"
+}
